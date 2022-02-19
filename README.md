@@ -22,3 +22,14 @@ npm i -D html-webpack-plugin ts-loader
     "start": "webpack --mode development"
   },
 ```
+
+# socket 
+```shell
+npm install socket.io-client
+```
+
+```js
+import { connect } from 'socket.io-client';
+
+const socket = connect('');
+```
