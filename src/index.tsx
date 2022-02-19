@@ -4,6 +4,4 @@ import App from './App';
 
 const rootElement = document.getElementById('root');
 
-console.log('aaa');
-
 ReactDOM.render(<App />, rootElement);
