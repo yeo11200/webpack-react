@@ -26,10 +26,20 @@ npm i -D html-webpack-plugin ts-loader
 # socket 
 ```shell
 npm install socket.io-client
+npm install --save @types/socket.io
 ```
 
 ```js
 import { connect } from 'socket.io-client';
 
 const socket = connect('');
+```
+
+# material
+```shell
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install @mui/material @mui/styled-engine-sc styled-components
+
+npm install @mui/icons-material
 ```
