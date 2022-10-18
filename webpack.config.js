@@ -31,8 +31,8 @@ module.exports = {
 				use: ['babel-loader', 'ts-loader'],
 			},
 			{
-				test: /.(sass|scss)$/,
-				use: [{ loader: 'sass-loader' }],
+				test: /\.s[ac]ss$/,
+				use: ['style-loader', 'css-loader', 'sass-loader'],
 			},
 		],
 	},

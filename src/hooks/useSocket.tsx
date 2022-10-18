@@ -30,6 +30,7 @@ const useSocket = () => {
 	 * socket Room 에 접근할 함수
 	 * @param _channel { string } : socket 명령어
 	 * @param _room { string } : sokcet 접근할 위치
+	 * @param _callback
 	 */
 	const fnSetJoinRoom = (
 		_channel: string,
